@@ -1,13 +1,8 @@
-<html>
-<head>
-	<title> <?php echo "Shirts 4 Mike"; ?> </title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
-	<link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
-	<?php include('includes/header.php'); ?>
-
+<?php 
+$pageTitle = "Unique T-shirts designed by a frog";
+$section = "home";
+include('includes/header.php'); 
+?>
 		<div class="section banner">
 
 			<div class="wrapper">
@@ -56,5 +51,4 @@
 
 		</div>
 
-	</div>
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php') ?>
